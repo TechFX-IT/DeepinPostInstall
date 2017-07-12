@@ -7,7 +7,7 @@ Script compiled by TechFX (https://github.com/TechFX-IT) using the one compiled 
 
 Copyright (c) 2017 TechFX.
 
-This program is a free software, published with GNU licence, version 3.
+This program is a free software, published with GNU license, version 3.
 The software doesn't come with any kind of warranty, even not for commercial purposes.
 
 #IT
