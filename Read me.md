@@ -2,6 +2,9 @@
 Tool for Deepin's Post-Installation process
 
 
+License/Licenza
+
+
 #EN
 
 Script compiled by TechFX (https://github.com/TechFX-IT) using the one compiled by Massimo A. Carlofano (https://github.com/Maxximo88) as base, just to simplify the Deepin post-installation process. Will be possible to use this script with every Linux Distribuion that uses APT, but may be problems with dependencies.
@@ -22,4 +25,15 @@ Questo programma è un software gratuito distribuito sotto licenza GNU, versione
 Il software viene distribuito senza alcuna garanzia, nemmeno per le organizzazioni commerciali.
 
 
-Copyright(c) 2017 TechFX
+How to use/Come usare
+
+
+#EN
+
+Just download "Deepin Post-Install.sh" and run it. The script may ask you your user account's password, that's because will run some sudo commands.
+
+
+
+#IT
+
+Scarica semplicemente il file "Deepin Post-Install.sh" ed eseguilo. Lo script potrebbe chiederti la tua password, perché eseguirà dei comandi sudo.
