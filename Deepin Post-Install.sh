@@ -79,6 +79,7 @@ read n
 if [ ${n} = "1" ]
   then
     #Cambio sources.list
+    sudo apt-get install git
     sudo mkdir /home/Deepin
     sudo git clone https://github.com/TechFX-IT/DeepinPostInstall /home/Deepin
     sudo cp /etc/apt/sources.list /etc/apt/sources.list.back
@@ -145,6 +146,7 @@ if [ ${n} = "1" ]
 elif [ ${n} = "2" ]
   then
     #Cambio sources.list
+    sudo apt-get install git
     sudo mkdir /home/Deepin
     sudo git clone https://github.com/TechFX-IT/DeepinPostInstall /home/Deepin
     sudo cp /etc/apt/sources.list /etc/apt/sources.list.back
@@ -219,6 +221,7 @@ elif [ ${n} = "3" ]
 elif [ ${n} = "4" ]
   then
     #Cambio sources.list
+    sudo apt-get install git
     sudo mkdir /home/Deepin
     sudo git clone https://github.com/TechFX-IT/DeepinPostInstall /home/Deepin
     sudo cp /etc/apt/sources.list /etc/apt/sources.list.back
@@ -332,6 +335,8 @@ elif [ ${n} = "28" ]
     sudo apt-get install neofetch -y
 elif [ ${n} = "29" ]
   then
+    #Ripristino sources.list originale
+    sudo apt-get install git
     sudo rm -r /home/Deepin
     sudo mkdir /home/Deepin
     sudo git clone https://github.com/TechFX-IT/DeepinPostInstall /home/Deepin
@@ -350,18 +355,21 @@ elif [ ${n} = "29" ]
     sudo reboot
 elif [ ${n} = "30" ]
   then
+    #Uscita
     echo ""
     echo ""
     echo ""
     echo "Uscendo..."
 elif [ ${n} = "31" ]
   then
+    #Uscita e riavvio
     echo ""
     echo ""
     echo ""
     echo "Riavviando..."
     sudo reboot
 else
+  #Messaggio d'errore
   echo "Inserisci un valore adeguato."
   fi
 done
