@@ -382,6 +382,8 @@ else
   fi
 done
 
+#endIT
+
 if [ ${lang} = en}
 then
 #Intro EN
@@ -748,3 +750,6 @@ else
 #Error lang
 echo "Choose a language"
 fi
+#endEN
+
+#END
