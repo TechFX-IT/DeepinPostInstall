@@ -11,16 +11,6 @@
 #Copyright (c) 2017 TechFX.
 #This program is a free software, published with GNU licence, version 3.
 #The software doesn't come with any kind of warranty, even not for commercial purposes.
-
-#Code
-#Choosing lang
-echo "Type the language, all in lowercase (en/it)"
-echo ""
-echo "Scrivi la lingua da usare, in minuscolo (en/it)"
-#Read answer
-read lang
-if [ ${lang} = it ]
-then
 #Intro IT
 echo "Benvenuto nel programma post installazione."
 echo ""
