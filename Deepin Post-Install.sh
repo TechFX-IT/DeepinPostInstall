@@ -19,7 +19,7 @@ echo ""
 echo "Scrivi la lingua da usare, in minuscolo (en/it)"
 #Read answer
 lang
-if [ ${lang} = it]
+if [ ${lang} = it ]
 then
 #Intro IT
 echo "Benvenuto nel programma post installazione."
@@ -384,7 +384,7 @@ done
 
 #endIT
 
-if [ ${lang} = en}
+if [ ${lang} = en ]
 then
 #Intro EN
 echo "Welcome to the post-installation program."
