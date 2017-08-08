@@ -18,7 +18,7 @@ echo "Type the language, all in lowercase (en/it)"
 echo ""
 echo "Scrivi la lingua da usare, in minuscolo (en/it)"
 #Read answer
-lang
+read lang
 if [ ${lang} = it ]
 then
 #Intro IT
